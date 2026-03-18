@@ -1,0 +1,838 @@
+.etiketka {
+    position: absolute;
+    top: 0rem;
+    right: 0.5rem;
+    font-size: 0.6rem;
+    color: lightblue;
+}
+
+.onEtiketka {
+    position: absolute;
+    /*top: -1.9rem;*/
+    right: 0.5rem;
+    font-size: 0.6rem;
+    color: lightblue;
+}
+
+.afterEtiketka {
+    position: absolute;
+    top: 0rem;
+    right: 0.5rem;
+    font-size: 0.6rem;
+    color: lightblue;
+}
+
+/*.words {
+    position: relative;
+}*/
+
+.words {
+    z-index: 1;
+    background-image: url(../img/clickToFix.svg);
+    background-position: right top;
+    background-repeat: no-repeat; 
+    position: relative;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border: 1px solid lightblue;
+        padding-top: 0.5rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        padding-bottom: 0.5rem;
+    border-radius: 0.5rem;
+        -webkit-box-sizing: content-box;
+                box-sizing: content-box;
+    }
+
+.words p {
+        /*padding-top: 0.25rem;*/
+        /*padding-bottom: 0.5rem;*/
+    margin: 0px;
+    margin-left: 1rem;
+    pointer-events: none;
+    }
+
+@font-face {
+    font-family: "Roboto";
+    src: url('../fonts/Roboto-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('../fonts/Roboto-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('../fonts/Roboto-Italic.ttf');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "RobotoThin";
+    src: url('../fonts/Roboto-Thin.ttf');
+    /*font-weight: ;*/
+}
+
+.onMonitor {
+    z-index: 2;
+    background: rgba(240,250,250,1);
+    background-image: url(../img/clickToUnfix.svg);
+    background-position: right bottom;
+    background-repeat: no-repeat; 
+    position: fixed;
+    /*zIndex: 5;*/
+    top: 3.2rem;
+    margin-top: 0px;
+    margin-left: -0.5rem;
+    width: 40rem;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid red;
+    cursor: pointer;   
+}
+
+.onTelephone {
+    background: rgba(240,250,250,1);
+    background-image: url(../img/clickToUnfix.svg);
+    background-position: right bottom;
+    background-repeat: no-repeat; 
+    position: fixed;
+    zIndex: 5;
+    top: 3.2rem;
+    margin-top: 0px;
+    margin-left: -0.5rem;
+    width: 20rem;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid red;
+    cursor: pointer;   
+}
+
+.onTelephone p {
+    font-size: 0.75rem;
+    }
+
+.wordsTelephone {
+
+}
+
+.offMonitor {
+    position: relative;
+    background: white;
+    border-radius: 0.5rem;
+    border: 1px solid lightblue;
+    margin-top: -2.8rem;
+    margin-bottom: 3.2rem;
+    margin-left: 0.5rem;
+    width: 38rem;
+    cursor: pointer;
+}
+
+
+
+p.linkbottom {
+    font-size: 0.85rem;
+    margin-top: 0;
+    margin-left: 1rem;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.linkbottom img {
+    height: 0.6rem;
+}
+
+.cont1 {
+    background-color: rgba(173,216,230,0.25);
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border: 1px solid lightblue;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.cont1 p {
+    margin-top: 0.5rem;
+    /*margin-left: -1.75rem;*/
+    margin-left: 0rem;
+}
+
+.cont1 p.indent {
+    margin-left: 0rem;
+}
+
+.cont1 hr {
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}
+
+.cont2 {
+    /*background-color: green;*/
+    vertical-align: middle;
+    display: inline-block;
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.cont3 {
+        vertical-align: middle;
+        display: inline-block;
+}
+
+.cont1 img {
+    /*width: 1.75rem;*/
+    height: 2.5rem;
+}
+
+.cont6 {
+    /*background-color: blue;*/
+    height: 3rem;
+        display: table-cell;
+        vertical-align: middle;
+        display: inline-block;
+}
+
+.cont4 {
+    /*background-color: green;*/
+    top: 50%;
+    margin-top: 0.2rem;
+    vertical-align: middle;
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.cont5 {
+    /*background-color: gray;*/
+    top: 50%;
+    vertical-align: middle;
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.center {
+    text-align: center;
+    margin-top: 0rem;
+}
+
+.indent {
+    /*padding: 0px;*/
+    padding-top: 0rem;
+    padding-bottom: 0.5rem;
+    pointer-events: none;
+    text-indent: -2.2rem;
+    }
+
+.lock {
+/*    width: 6.85rem;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 1rem;
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 1rem; 
+    margin-top: 0.7rem;
+    margin-bottom: 0.5rem;
+    padding: 8px 10px;
+    outline: none;
+    cursor: pointer;
+    background-color: lightblue;*/
+        display: none;
+    }
+
+.lock:hover {
+    cursor: pointer;
+    }
+
+#invisibleTop {
+    width: 100%;
+    /*height: 0px;*/
+        /*height: 10px;*/
+        /*background-color: red;*/
+    visibility: hidden;
+}
+
+#invisibleDown {
+    width: 100px;
+    height: 0px;
+    /*display: none;*/
+    visibility: hidden;
+}
+
+.words:hover {
+    cursor: pointer;
+    }
+
+.wordsLetter {
+    color: lightgray;
+    margin-right: 1rem;
+}
+
+.background {
+    border-radius: 0.25rem;
+    background: lightblue;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    padding-bottom: 0.1rem;
+    }
+
+.flex {
+    margin-right: 1rem;
+    }
+
+html {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    font-size: 1.5rem;
+    }
+
+.wrapper {
+    width: 40rem;
+    margin: 0 auto; 
+    }
+
+.header_start {
+    z-index: 10;
+    /*background-color: royalblue;*/
+    position: fixed;
+    width: 40rem;
+    height: 2rem;
+    top: 0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    }
+
+.header {
+    z-index: 10;
+    background-color: rgba(67,98,172,1);
+    position: fixed;
+    width: 40rem;
+    height: 2rem;
+    top: 1.2rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+
+.podheader {
+    z-index: 10;
+    background-color: rgba(67,98,172,1);
+    position: fixed;
+    width: 40rem;
+    height: 1.2rem;
+    top: 0rem;
+        border-bottom: 1px solid black;
+
+    }
+
+.container {
+/*    background-color: royalblue;*/
+    position: relative;
+    width: 40rem;
+
+        margin-top: -0.25rem;
+    }
+
+.hidden {
+    color: orangered;
+    display: none;
+    line-height: 1.25rem;
+    margin-top: 0.5rem;
+    margin-left: 3rem;
+  }
+      
+.menu img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 0.25rem;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    margin-left: 0.5rem;
+    }
+
+.theory {
+    color: white;
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 1rem; 
+    letter-spacing: 0.06rem;
+    margin-top: 0.25rem;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    }
+
+.exercises {
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 1rem; 
+    letter-spacing: 0.06rem;
+    margin-top: 0.25rem;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    }
+
+.arrow {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 0.25rem;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    margin-right: 0.5rem;
+    }
+
+.nopointer {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 0.25rem;
+    cursor: none;
+    display: inline;
+    float: left;
+    margin-right: 0.5rem;
+    }
+
+.clickme {
+    cursor: pointer;
+    }
+
+body {
+    background-color: lightblue;
+    }
+
+.checkbox {
+    background-color: white;
+    width: 0.7rem;
+    height: 0.7rem;
+    border: 1px solid gray;
+    float: left;
+    margin-left: 1.5rem;
+    margin-right: 0.5rem;
+    margin-top: 0.3rem;
+    }
+
+.numer_section {
+    border-radius: 1rem;
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 1rem; 
+    margin-top: 1rem;
+    margin-bottom: -2rem;
+    margin-left: 0.5rem;
+    padding: 4px 10px;
+    outline: none;
+    background-color: darkblue;
+    color: bisque;
+    }
+
+.section {
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 1.5rem;
+    padding-top: 0.1rem;
+        -webkit-box-sizing: content-box;
+                box-sizing: content-box;
+    margin-bottom: 2rem;
+    background-color: white;
+/*        box-shadow: inset 0rem 0rem 0.25rem 0rem gray;*/
+    }
+
+span {
+    font-weight: bold;
+    }
+
+p {
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 1rem; 
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+    }
+
+p.indent {
+    line-height: 1.25rem;
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+    /*margin-bottom: 0.5rem;*/
+    }
+
+p.vtyazhka {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+p.second {
+    margin-left: 3.05rem;
+    margin-top: 0px;
+    }
+
+p.we_say {
+    margin-top: 0px;
+    margin-bottom: 1.5rem;
+    }
+
+p.class25 {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    }
+
+p.class12 {
+    color: rgba(255,255,255,1);
+    font-size: 1rem;
+/*    color: dimgray;*/
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 0.8rem; 
+/*    cursor: pointer;*/
+    display: inline;
+    }
+
+p.contents {
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 1rem; 
+    margin-top: 1.5rem;
+    margin-left: 0.5rem;
+    }
+
+a.contents {
+    color: black;
+    text-decoration: none;
+    padding: 0.25rem 1rem;
+    border-radius: 1rem;
+/*    border: 1px solid black;*/
+   }
+
+a.contents:visited {
+    color: black; 
+   }
+
+a.contents:hover {
+    color: black;
+    background: lightblue;
+    }
+
+/*
+a.contents:active {
+    color: white;
+   }
+*/
+
+br {
+    line-height: inherit;
+    }
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+    }
+
+.inputnew {
+    padding: 8px 10px;
+/*    margin-left: 1.6rem;*/
+        margin-left: 0rem;
+        width: 28em;
+    margin-top: 0.25rem;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 1rem;
+    outline: none;
+    padding-left: 1rem;
+    }
+
+textarea::-webkit-input-placeholder {
+        font-family: "RobotoThin";
+        letter-spacing: 0.05rem;
+    font-style: italic;
+    font-size: 0.8rem;
+    font-weight: normal;
+    padding-left: 0.25rem;
+    color: lightgray;
+    padding-top: 0.1rem;
+    }
+
+textarea::-moz-placeholder {
+        font-family: "RobotoThin";
+        letter-spacing: 0.05rem;
+    font-style: italic;
+    font-size: 0.8rem;
+    font-weight: normal;
+    padding-left: 0.25rem;
+    color: lightgray;
+    padding-top: 0.1rem;
+    }
+
+:focus::-webkit-input-placeholder {opacity: 0; -webkit-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+:focus::-moz-placeholder          {opacity: 0; -webkit-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+:focus:-moz-placeholder           {opacity: 0; -webkit-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+:focus:-ms-input-placeholder      {opacity: 0; -webkit-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+
+.newbutton::-moz-selection {
+   background: transparent;
+}
+
+.newbutton::selection {
+   background: transparent;
+}
+.newbutton::-moz-selection {
+   background: transparent;
+}
+
+.newbutton {
+    width: 6.85rem;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 1rem;
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 1rem; 
+    margin-left: 0.5rem;
+    padding: 8px 10px;
+    outline: none;
+    cursor: pointer;
+    background-color: lightblue;
+    }
+
+img.class142 {
+    width: 50%;
+/*    height: 30%;*/
+/*    height: auto;*/
+    margin-top: 2em;
+    margin-bottom: -1.5em;
+/*    margin-left: 25%;*/
+/*    margin-right: 35%;*/
+/*    border: 1px solid #ccc;    */
+    }
+
+.gray {
+    color: lightgray;
+    font-family: "RobotoThin";
+    /*font-weight: ;*/
+    font-style: italic;
+    font-size: 0.9rem; 
+    }
+
+textarea {
+    resize: none;
+    overflow: hidden; 
+    }
+
+li {
+        width: 28rem;
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 1rem; 
+    color: lightgray;
+    margin-left: 0.25rem;
+    margin-top: 2rem;
+    }
+
+ol {
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 1rem; 
+    color: black;
+    margin-left: 0.25rem; 
+    display: inline-block;
+/*    margin-top: 2rem;*/
+    }
+
+ol img {
+    margin-left: 23%;
+    }
+
+.text_inside_li {
+    color: black;
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 1rem; 
+    /*word-spacing: 0.25em;*/
+    }
+
+        /*---------------------------------*/
+        /*            смартфоны            */
+        /*---------------------------------*/
+
+@media (max-width: 480px) {
+   
+    .wrapper {
+        width: 480px;
+        }
+    
+    .header {
+        width: 480px;
+        top: 1.2rem;
+        }
+
+    .podheader {
+        width: 480px;
+        }
+        
+    p.class12 {
+        font-size: 0.65rem;
+        }
+    
+    p.class25 {
+/*        font-size: 1.5rem;*/
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+/*        text-align: center;*/
+        margin-left: auto;
+        margin-right: auto;
+        }
+    
+    .container {
+        /*width: 480px;*/
+        width: 20rem;
+        }
+    
+    .section {
+        -webkit-box-shadow: inset 0rem 0rem 0.55rem 0rem gray;
+                box-shadow: inset 0rem 0rem 0.55rem 0rem gray;
+        }
+    
+    p.contents {
+        font-size: 0.8rem; 
+        line-height: 1.25rem;
+        margin-top: 1rem;
+        }
+
+    a.contents:link {
+        color: black;
+        padding: 0.25rem 0.25rem;
+       }
+
+    a.contents:hover {
+        background: lightblue;
+        }
+    
+    .inputnew {
+        width: 15.6rem;
+        padding-top: 8px;
+        padding-left: 0.8rem;
+        margin-top: 0.25rem;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        border: 1px solid #ccc;
+        font-size: 1rem;
+        }
+
+.newbutton {
+    width: 4.5rem;
+    text-align: center;
+    border: 1px solid lightblue;
+    border-radius: 1rem;
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 0.6rem; 
+    margin-top: 0.5rem;
+    margin-left: 5.65rem;
+    padding: 6px 10px;
+    outline: none;
+    cursor: pointer;
+    background-color: lightblue;
+    }
+    
+    img.class142 {
+        width: 90%;
+/*        height: 40%;*/
+/*        margin-left: 5px;*/
+/*        margin-right: 30%;*/
+        margin-top: 1.5em;
+        margin-bottom: -1.5em;
+        }
+    
+    ol img {
+        margin-left: 0%;
+    }
+
+textarea::-webkit-input-placeholder {
+    font-style: italic;
+    font-size: 0.8rem;
+    font-weight: normal;
+    padding-left: 0.25rem;
+    color: lightgray;
+    padding-top: 0.1rem;
+    }
+
+textarea::-moz-placeholder {
+    font-style: italic;
+    font-size: 0.8rem;
+    font-weight: normal;
+    padding-left: 0.25rem;
+    color: lightgray;
+    padding-top: 0.1rem;
+    }
+
+li {
+        width: 16rem; 
+    font-family:;
+    font-weight: normal;
+    font-size: 1rem; 
+    margin-top: 2rem;
+    margin-left: 0.25rem;
+    }
+    
+.text_inside_li {
+    color: black;
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 1rem; 
+    }
+
+.words p {
+    font-size: 0.75rem;
+    }
+    
+p.vtyazhka {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    }
+
+}
+
+/*p.vtyazhka {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}*/
+
+
+
