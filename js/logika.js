@@ -10,7 +10,6 @@ $('.inputnew').click(click_input);
                     {
                         var value = $(idFull).val().toLowerCase();
                         
-                        /* удаляем лишние пробелы, обрезаем первый и последний на всякий случай */
                         value = value.replace(/\s+/g,' ').trim();
                     
                         var aaa = answers[idShort*1-1].split(" / ");            
@@ -32,8 +31,7 @@ $('.inputnew').click(click_input);
                     var idFull = el.id;
                     var idShort = idFull.split("_")[1];
                     
-                    /* увеличение высоты textarea в случае, если ответ не вмещается в одну строку */
-                    if ( (answers[idShort*1-1].length > 31) && ($("#input_" + idShort).width() <= 350)) //браузер понимает только пиксели...
+                    if ( (answers[idShort*1-1].length > 31) && ($("#input_" + idShort).width() <= 350)) 
                     {
                         $("#input_" + idShort).attr('rows', 2);
                     }
