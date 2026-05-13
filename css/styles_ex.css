@@ -688,7 +688,7 @@ ol img {
     }
 
         /*---------------------------------*/
-        /*            смартфоны            */
+        /*            Smartphones            */
         /*---------------------------------*/
 
 @media (max-width: 480px) {
@@ -826,13 +826,8 @@ p.vtyazhka {
     padding-top: 0rem;
     padding-bottom: 0rem;
     }
-
 }
 
-/*p.vtyazhka {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}*/
 
 
 
