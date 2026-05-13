@@ -19,7 +19,6 @@
     font-style: italic;
 }
 
-/* Основные стили */
 body {
     background-color: lightblue;
     font-family: "Roboto", sans-serif;
@@ -53,7 +52,7 @@ body {
 
 .element_menu {
     text-align: center;
-    flex: 1 1 120px; /* минимальная ширина 120px */
+    flex: 1 1 120px; 
 }
 
 .element_menu img {
@@ -128,7 +127,6 @@ a.contents:hover {
     margin: 1rem auto;
 }
 
-/* Мобильная адаптивность */
 @media (max-width: 480px) {
     p.howtouse, p.contents, figcaption {
         font-size: 0.85rem;
